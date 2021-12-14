@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 const Home = () => (
   <div  className={styles.home}>
-    <h1 data-testid="custom-element">Home page</h1>
+    <h1 data-testid="custom-element">About page</h1>
   </div>
 )
 
