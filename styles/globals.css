@@ -24,3 +24,19 @@ a {
 .layout {
   padding: 0em 4em;
 }
+
+/**
+  * Fonts
+  */
+
+.text-xl {
+  font-size: 3em;
+}
+
+.text-l {
+  font-size: 3em;
+}
+
+.text-m {
+  font-size: 1.6em;
+}

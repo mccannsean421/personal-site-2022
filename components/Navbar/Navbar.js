@@ -1,7 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from '../../styles/Navbar.module.css';
-
+import NavLink from './NavLink';
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +29,7 @@ class Navbar extends React.Component {
   render() {
     const items = this.state.items.map(({text, path}, index) =>
       <li key={index}>
-        <Link href={path}>{ text }</Link>
+        <NavLink text={text} path={path} />
       </li>
     );
 
