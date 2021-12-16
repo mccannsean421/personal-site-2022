@@ -1,5 +1,8 @@
 :root {
   --gun-metal-gray: #222222; /* Background for pages */
+  --emerald: #5bd774;
+  --medium-purple: #8774d2;
+  --active-color: var(--emerald);
 }
 
 html,

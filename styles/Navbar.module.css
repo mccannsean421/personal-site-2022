@@ -19,13 +19,3 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-
-/**
-* Active link decoration
-*/
-.active-link {
-  content: '';
-  height: 10px;
-  width: 50px;
-  background:  magenta;
-}
