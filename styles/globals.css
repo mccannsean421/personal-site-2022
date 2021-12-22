@@ -50,6 +50,25 @@ ul {
   font-size: 1.6em;
 }
 
+/**
+ * Pages
+ */
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2em 0;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.main h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .about-page {
   --active-color: var(--shocking-pink);
 }
