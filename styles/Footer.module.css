@@ -2,3 +2,18 @@
   display: grid;
   justify-content: center;
 }
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.footer ul li:not(:first-child) {
+  padding-left: 1em;
+}

@@ -3,6 +3,8 @@
   --emerald: #5bd774;
   --medium-purple: #8774d2;
   --active-color: var(--emerald);
+  --vivid-sky-blue: #5CD6FF;
+  --shocking-pink: #FB23C1;
 }
 
 html,
@@ -28,6 +30,10 @@ a {
   padding: 0em 4em;
 }
 
+ul {
+  padding-left: 0;
+}
+
 /**
   * Fonts
   */
@@ -42,4 +48,12 @@ a {
 
 .text-m {
   font-size: 1.6em;
+}
+
+.about-page {
+  --active-color: var(--shocking-pink);
+}
+
+.posts-page {
+  --active-color: var(--vivid-sky-blue);
 }
