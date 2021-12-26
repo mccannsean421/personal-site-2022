@@ -17,11 +17,7 @@ class Navbar extends React.Component {
         {
           text: 'Posts',
           path: '/posts',
-        },
-        {
-          text: 'Projects',
-          path: '/projects',
-        },
+        }
       ]
     };
   }

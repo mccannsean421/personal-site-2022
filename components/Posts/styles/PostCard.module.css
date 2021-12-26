@@ -1,3 +1,18 @@
 .postCard {
- background: red;
+ display: grid;
+ grid-gap: 20px;
+ grid-template-columns: 1fr;
+}
+
+.postCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.postCard h3 {
+  cursor: pointer;
+  margin-top: 0;
+  max-width: 100%;
+  height: auto;
+  text-transform: uppercase;
 }

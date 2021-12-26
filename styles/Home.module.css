@@ -8,4 +8,10 @@
 
 .home h1 {
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.home h2 {
+  text-transform: uppercase;
+  margin: 0;
 }

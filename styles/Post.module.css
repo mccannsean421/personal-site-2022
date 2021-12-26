@@ -1,3 +1,8 @@
 .post h1 {
   margin: 3em 0;
 }
+
+.postsList {
+  padding-top: 3em;
+  list-style-type: none;
+}

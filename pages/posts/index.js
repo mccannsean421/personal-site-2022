@@ -1,14 +1,13 @@
 import Head from 'next/head';
-import styles from '../../styles/Home.module.css';
+import styles from '../../styles/Post.module.css';
 import { getAllPosts } from '../api';
 import PostCard from '@/components/Posts/PostCard';
 
 export default function Posts({allPosts}) {
   return (
     <div className="container main">
-      <h1 data-testid="custom-element">Posts page</h1>
-      <p>Sometimes I enjoy writing things</p>
-      <ul>
+      <h1 data-testid="custom-element" className="text-xl">Sometimes I write things</h1>
+      <ul className={styles.postsList}>
         {
           allPosts.map((post, index) => {
             return <li key={index}><PostCard post={post} /></li>
