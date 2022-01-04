@@ -15,4 +15,10 @@
   max-width: 100%;
   height: auto;
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--active-color);
+}
+
+.postCard time {
+  color: var(--silver-chalice);
 }

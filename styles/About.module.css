@@ -1,0 +1,16 @@
+.aboutPage h2 {
+  text-transform: uppercase;
+  position: relative;
+  margin: 2.5em 0;
+}
+
+
+.aboutPage h2::after {
+  content: '';
+  position: absolute;
+  background: var(--active-color);
+  top: 35px;
+  height: 4px;
+  width: 30px;
+  left: 0;
+}

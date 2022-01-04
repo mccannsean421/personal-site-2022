@@ -8,6 +8,8 @@
   --active-color: var(--emerald);
   --vivid-sky-blue: #5CD6FF;
   --shocking-pink: #FB23C1;
+  --silver-chalice: #b0b0b0;
+  --maximum-yellow-red: #FFBC42;
 }
 
 html,
@@ -65,13 +67,16 @@ h1 {
   font-size: 1.6em;
 }
 
+.text-s {
+  font-size: 1.2em;
+}
 /**
  * Pages
  */
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 680px;
   padding: 2em 0;
 }
 
@@ -89,5 +94,9 @@ h1 {
 }
 
 .posts-page {
-  --active-color: var(--vivid-sky-blue);
+  --active-color: var(--maximum-yellow-red);
+}
+
+p {
+  line-height: 1.6;
 }
